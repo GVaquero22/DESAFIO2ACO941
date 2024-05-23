@@ -53,3 +53,7 @@ def main_window():
     cesar_label = tk.Label(root,  font='Helvetica 18 bold' ,text='Cifrado César')
     cesar_label.pack(pady=10)
 
+# Cifrar
+    cifrar_button = tk.Button(root, text="Cifrar", height=1, width=20, command=open_cifrar)
+    cifrar_button.pack(pady=10)
+
