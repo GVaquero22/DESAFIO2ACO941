@@ -57,3 +57,14 @@ def main_window():
     cifrar_button = tk.Button(root, text="Cifrar", height=1, width=20, command=open_cifrar)
     cifrar_button.pack(pady=10)
 
+# Descifrar
+    descifrar_button = tk.Button(root, text="Descifrar", height=1, width=20, command=open_descifrar)
+    descifrar_button.pack(pady=10)
+
+    root.mainloop()
+
+
+# Funciones principales #
+if __name__ == "__main__":
+    create_config_file()
+    main_window()
